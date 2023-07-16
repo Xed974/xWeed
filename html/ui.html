@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="/html/JS/script.js"></script>
+        <script src="/html/JS/app.js"></script>
+        <link rel="stylesheet" href="/html/CSS/main.css">
+        <link rel="stylesheet" href="/html/CSS/progressbar.css">
+    </head>
+    <body>
+        <div id="fond"></div>
+        <img onclick="closeInterface()" id="close" src="/html/IMG/close.png">
+        <div id="top">
+            <img id="img-top" src="/html/IMG/weed.png">
+            <p id="message-top">INTERACTION</p>
+        </div>
+        <div id="bottom">
+            <p id="water">Eau</p>
+            <p id="health">Vie</p>
+            <p id="id"></p>
+            <img onclick="updateValue()" id="addWater" src="/html/IMG/addWater.png">
+            <img onclick="removePlant()" id="delete" src="/html/IMG/delete.png">
+            <div id="progress">
+                <div id="progress-bar"></div>
+            </div>
+            <div id="progress2">
+                <div id="progress2-bar"></div>
+            </div>
+        </div>
+    </body>
+</html>

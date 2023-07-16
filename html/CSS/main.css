@@ -1,0 +1,124 @@
+body {
+    display: none;
+}
+
+#fond{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 225px;
+    left: 625px;
+    background-color: #000000;
+    opacity: 70%;
+    border-radius: 50px;
+}
+
+#close{
+    height: 80px;
+    position: absolute;
+    top: 270px;
+    left: 1050px;
+}
+
+/* Gestion du haut de la page */
+
+#top{
+    border-radius: 30px;
+    background-color: rgb(146, 146, 146);
+    box-shadow: inset 2px 2px 2px #000000, inset -2px -2px 2px #000000;
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    top: 260px;
+    left: 650px;
+}
+
+#img-top{
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#message-top{
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    display: inline-block;
+    border-bottom: solid 2px #000000;
+    position: absolute;
+    top: 10px;
+    left: 148px;
+}
+
+/* Gestion du bas de la page */
+
+#bottom{
+    border-radius: 30px;
+    background-color: rgb(146, 146, 146);
+    box-shadow: inset 2px 2px 2px #000000, inset -2px -2px 2px #000000;
+    width: 500px;
+    height: 320px;
+    position: absolute;
+    top: 400px;
+    left: 650px
+}
+
+#addWater{
+    height: 80px;
+    position: absolute;
+    top: 220px;
+    left: 225px
+}
+
+#delete{
+    height:80px;
+    position: absolute;
+    top: 220px;
+    left: 350px
+}
+
+#water{
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    position: absolute;
+    top: 135px;
+    left: 50px
+}
+
+#health{
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    position: absolute;
+    top: 55px;
+    left: 50px
+}
+
+#id{
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight:bold;
+    position: absolute;
+    top: 230px;
+    left: 50px
+}
+
+/* Gestion hover */
+
+#addWater:hover{
+    cursor: pointer;
+}
+
+#delete:hover{
+    cursor: pointer;
+}
+
+#close:hover{
+    cursor: pointer;
+}
