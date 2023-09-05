@@ -75,7 +75,7 @@ CreateThread(function()
                                 Wait(1000)
                                 SetTimecycleModifier("hud_def_blur")
                                 SetTimecycleModifierStrength(0.9)
-                                SendNUIMessage({action = "show", health = cachePlants[i].status.health, water = cachePlants[i].status.water, id = cachePlants[i].id})
+                                SendNUIMessage({ action = "XWEED_EVENT_NUI_SHOW", payload = { health = cachePlants[i].status.health, water = cachePlants[i].status.water, id = cachePlants[i].id }})
                             end
                         end
                     end
