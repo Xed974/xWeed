@@ -109,7 +109,6 @@ end)
 CreateThread(function()
     while true do
         Wait(Config.interval * 60000)
-        print("Interval")
         for _,v in pairs(cachePlant) do
             if v.status["health"] == 0 then
                 DeleteEntity(v.id)
